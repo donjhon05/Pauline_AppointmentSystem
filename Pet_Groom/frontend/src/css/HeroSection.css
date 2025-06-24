@@ -1,0 +1,60 @@
+.hero-section {
+  background: linear-gradient(180deg, #fbeff5 60%, #e6f7f6 100%);
+  padding: 3rem 1rem 2rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.hero-graphics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.paw-svg {
+  animation: bounce 2s infinite alternate;
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-10px) scale(1.1);
+  }
+}
+
+.hero-dog-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+}
+
+.hero-highlight {
+  color: #f15bb5;
+}
+
+.hero-btn {
+  background: #f15bb5;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hero-btn:hover {
+  background: #d72660;
+}
